@@ -152,7 +152,7 @@ export default {
 			sl = (SL || sl);
 			subConfig = (SUB_CONFIG || subConfig);
 			subConverter = (SUB_CONVERTER || subConverter);
-			fileName = (SUB_NAME || subConverter);
+			fileName = (SUB_NAME || fileName);
 			botToken = (TG_TOKEN || botToken);
 			chatID = (TG_ID || chatID);
 
