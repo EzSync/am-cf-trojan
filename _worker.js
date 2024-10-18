@@ -70,7 +70,7 @@ let fakeHostName;
 let subProtocol = 'https';
 let subConverter = 'url.v1.mk'; // Subscription conversion backend using Sheep's function
 let subConfig = "https://raw.githubusercontent.com/amclubs/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; // Subscription profile
-let fileName = 'youtube.com/@am_club';
+let fileName = 'Amtro';
 let isBase64 = true;
 
 let botToken = '';
