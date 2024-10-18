@@ -49,7 +49,7 @@ let ipLocal = [
 let noTLS = 'false';
 let sl = 5;
 
-let tagName = 'Amtro';
+// let tagName = 'amclubs';
 let subUpdateTime = 6; // Subscription update time in hours
 let timestamp = 4102329600000; // Timestamp for the end date (2099-12-31)
 let total = 99 * 1125899906842624; // PB (perhaps referring to bandwidth or total entries)
@@ -70,7 +70,7 @@ let fakeHostName;
 let subProtocol = 'https';
 let subConverter = 'url.v1.mk'; // Subscription conversion backend using Sheep's function
 let subConfig = "https://raw.githubusercontent.com/amclubs/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; // Subscription profile
-let fileName = 'Amtro';
+let fileName = 'youtube.com/@am_club';
 let isBase64 = true;
 
 let botToken = '';
@@ -152,7 +152,7 @@ export default {
 			sl = (SL || sl);
 			subConfig = (SUB_CONFIG || subConfig);
 			subConverter = (SUB_CONVERTER || subConverter);
-			fileName = (SUB_NAME || fileName);
+			fileName = (SUB_NAME || subConverter);
 			botToken = (TG_TOKEN || botToken);
 			chatID = (TG_ID || chatID);
 
