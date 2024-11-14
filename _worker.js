@@ -49,7 +49,7 @@ let ipLocal = [
 let noTLS = 'false';
 let sl = 5;
 
-let tagName = 'amtro';
+// let tagName = 'amclubs';
 let subUpdateTime = 6; // Subscription update time in hours
 let timestamp = 4102329600000; // Timestamp for the end date (2099-12-31)
 let total = 99 * 1125899906842624; // PB (perhaps referring to bandwidth or total entries)
